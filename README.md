@@ -55,7 +55,6 @@ pip install -r requirements.txt
 Start the FastAPI server:
 
 ```bash
-Copy code
 uvicorn main:app --reload
 ```
 The API will be available at http://127.0.0.1:8000.
@@ -64,7 +63,6 @@ The API will be available at http://127.0.0.1:8000.
 - Use the /predict endpoint to send a POST request with a piece of text and receive a sentiment score.
 - Example request:
 ```bash
-Copy code
 curl -X 'POST' \
   'http://127.0.0.1:8000/predict' \
   -H 'accept: application/json' \
