@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+data/raw/*
+!data/raw/.gitkeep  # Keeps the directory structure but ignores the files inside
+
+# Model files and outputs
+app/models/*.pkl
+app/models/*.h5
+app/models/*.pt
+*.model
+*.ckpt
+
+# Configuration and environment files
+.env
+config.yaml
+settings.ini
+
+# Docker
+*.log
+docker-compose*.yml
+.dockerignore
+Dockerfile
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor Configurations
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and reports
+logs/
+*.log
+*.out
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Tests
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Build files
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Documentation builds
+docs/_build/
+site/
